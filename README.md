@@ -1,2 +1,2 @@
 ## Face and eye Recognition on Webcam
-### with haar-cascade algorithms
+### using haar-cascade algorithms
