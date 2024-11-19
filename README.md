@@ -1,17 +1,35 @@
 # Face Recognition
 
 ## Overview  
-This project implements **face recognition** using Python and OpenCV. It aims to detect and recognize human faces in real time or from static images with high accuracy. The system is versatile and can be adapted for applications such as security, access control, and attendance management.
+This project implements **face recognition** using Python and OpenCV. It detects and recognizes human faces in real-time or from static images. The system can be adapted for applications such as security, monitoring, and access control.
 
 ## Features  
 - **Face Detection**: Identifies human faces in images or video streams.  
-- **Real-Time Recognition**: Processes video streams to recognize faces in real time.  
-- **Custom Dataset**: Supports creating and training with custom face datasets.  
-- **Integration-Ready**: Can be integrated into larger applications such as access control or monitoring systems.  
+- **Real-Time Recognition**: Processes video streams to recognize faces.  
+- **Custom Dataset**: Supports creating and training with custom datasets.  
+- **Integration-Ready**: Easily integrates into larger systems.  
+
+## Project Structure  
+```
+Face-Recognition/  
+│  
+├── face_recognition.py        # Main script for face detection and recognition  
+├── dataset/                   # Folder containing images of faces for training  
+│   ├── person1/               # Subfolder for person1's face images  
+│   ├── person2/               # Subfolder for person2's face images  
+│   └── ...  
+├── models/                    # Pre-trained models or saved training data  
+│   ├── face_model.pkl         # Example model file  
+│   └── ...  
+├── utils/                     # Utility scripts for preprocessing and analysis  
+│   └── helper_functions.py    # Example utility script  
+├── requirements.txt           # Python dependencies  
+└── README.md                  # Project documentation  
+```
 
 ## Technologies Used  
 - **Python**: Core programming language for the project.  
-- **OpenCV**: For image processing and computer vision tasks.  
+- **OpenCV**: For image processing and computer vision.  
 - **Dlib/DeepFace (if applicable)**: Enhances facial recognition accuracy (if used).  
 
 ## License  
