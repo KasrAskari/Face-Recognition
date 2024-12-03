@@ -22,8 +22,7 @@ Face-Recognition/
 │   ├── face_model.pkl         # Example model file  
 │   └── ...  
 ├── utils/                     # Utility scripts for preprocessing and analysis  
-│   └── helper_functions.py    # Example utility script  
-├── requirements.txt           # Python dependencies  
+│   └── helper_functions.py    # Example utility script   
 └── README.md                  # Project documentation  
 ```
 
